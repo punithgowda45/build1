@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
+    <line>
+      <![CDATA[Error msg is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Error msg is displayed]]>
+    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="121295" started-at="2021-08-28T08:06:57Z" finished-at="2021-08-28T08:08:58Z">
+  <suite name="Suite" duration-ms="89579" started-at="2021-08-28T09:56:05Z" finished-at="2021-08-28T09:57:35Z">
     <groups>
     </groups>
-    <test name="TestGC" duration-ms="50303" started-at="2021-08-28T08:06:57Z" finished-at="2021-08-28T08:07:47Z">
+    <test name="TestGC" duration-ms="35667" started-at="2021-08-28T09:56:05Z" finished-at="2021-08-28T09:56:41Z">
       <class name="scripts.Validlogin">
-        <test-method status="PASS" signature="openapp(java.lang.String, java.lang.String)[pri:0, instance:scripts.Validlogin@20d28811]" name="openapp" is-config="true" duration-ms="13146" started-at="2021-08-28T08:06:57Z" finished-at="2021-08-28T08:07:10Z">
+        <test-method status="PASS" signature="openapp(java.lang.String, java.lang.String)[pri:0, instance:scripts.Validlogin@20d28811]" name="openapp" is-config="true" duration-ms="13181" started-at="2021-08-28T09:56:05Z" finished-at="2021-08-28T09:56:19Z">
           <params>
             <param index="0">
               <value>
@@ -23,17 +29,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openapp -->
-        <test-method status="PASS" signature="testValidlogin()[pri:1, instance:scripts.Validlogin@20d28811]" name="testValidlogin" duration-ms="14641" started-at="2021-08-28T08:07:10Z" finished-at="2021-08-28T08:07:25Z">
+        <test-method status="PASS" signature="testValidlogin()[pri:1, instance:scripts.Validlogin@20d28811]" name="testValidlogin" duration-ms="8781" started-at="2021-08-28T09:56:19Z" finished-at="2021-08-28T09:56:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testValidlogin -->
-        <test-method status="PASS" signature="closeapp()[pri:0, instance:scripts.Validlogin@20d28811]" name="closeapp" is-config="true" duration-ms="359" started-at="2021-08-28T08:07:25Z" finished-at="2021-08-28T08:07:25Z">
+        <test-method status="PASS" signature="closeapp()[pri:0, instance:scripts.Validlogin@20d28811]" name="closeapp" is-config="true" duration-ms="151" started-at="2021-08-28T09:56:27Z" finished-at="2021-08-28T09:56:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeapp -->
       </class> <!-- scripts.Validlogin -->
       <class name="scripts.Invalidlogin">
-        <test-method status="PASS" signature="openapp(java.lang.String, java.lang.String)[pri:0, instance:scripts.Invalidlogin@3cc2931c]" name="openapp" is-config="true" duration-ms="16229" started-at="2021-08-28T08:07:25Z" finished-at="2021-08-28T08:07:41Z">
+        <test-method status="PASS" signature="openapp(java.lang.String, java.lang.String)[pri:0, instance:scripts.Invalidlogin@3cc2931c]" name="openapp" is-config="true" duration-ms="8741" started-at="2021-08-28T09:56:28Z" finished-at="2021-08-28T09:56:36Z">
           <params>
             <param index="0">
               <value>
@@ -49,19 +55,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openapp -->
-        <test-method status="PASS" signature="testValidlogin()[pri:2, instance:scripts.Invalidlogin@3cc2931c]" name="testValidlogin" duration-ms="5794" started-at="2021-08-28T08:07:41Z" finished-at="2021-08-28T08:07:47Z">
+        <test-method status="PASS" signature="testValidlogin()[pri:2, instance:scripts.Invalidlogin@3cc2931c]" name="testValidlogin" duration-ms="4678" started-at="2021-08-28T09:56:36Z" finished-at="2021-08-28T09:56:41Z">
           <reporter-output>
+            <line>
+              <![CDATA[Error msg is displayed]]>
+            </line>
           </reporter-output>
         </test-method> <!-- testValidlogin -->
-        <test-method status="PASS" signature="closeapp()[pri:0, instance:scripts.Invalidlogin@3cc2931c]" name="closeapp" is-config="true" duration-ms="109" started-at="2021-08-28T08:07:47Z" finished-at="2021-08-28T08:07:47Z">
+        <test-method status="PASS" signature="closeapp()[pri:0, instance:scripts.Invalidlogin@3cc2931c]" name="closeapp" is-config="true" duration-ms="109" started-at="2021-08-28T09:56:41Z" finished-at="2021-08-28T09:56:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeapp -->
       </class> <!-- scripts.Invalidlogin -->
     </test> <!-- TestGC -->
-    <test name="TestFF" duration-ms="70965" started-at="2021-08-28T08:07:47Z" finished-at="2021-08-28T08:08:58Z">
+    <test name="TestFF" duration-ms="53882" started-at="2021-08-28T09:56:41Z" finished-at="2021-08-28T09:57:35Z">
       <class name="scripts.Invalidlogin">
-        <test-method status="PASS" signature="openapp(java.lang.String, java.lang.String)[pri:0, instance:scripts.Invalidlogin@6ef888f6]" name="openapp" is-config="true" duration-ms="14946" started-at="2021-08-28T08:08:36Z" finished-at="2021-08-28T08:08:51Z">
+        <test-method status="PASS" signature="openapp(java.lang.String, java.lang.String)[pri:0, instance:scripts.Invalidlogin@6ef888f6]" name="openapp" is-config="true" duration-ms="21227" started-at="2021-08-28T09:57:08Z" finished-at="2021-08-28T09:57:29Z">
           <params>
             <param index="0">
               <value>
@@ -77,17 +86,20 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openapp -->
-        <test-method status="PASS" signature="testValidlogin()[pri:2, instance:scripts.Invalidlogin@6ef888f6]" name="testValidlogin" duration-ms="5031" started-at="2021-08-28T08:08:51Z" finished-at="2021-08-28T08:08:56Z">
+        <test-method status="PASS" signature="testValidlogin()[pri:2, instance:scripts.Invalidlogin@6ef888f6]" name="testValidlogin" duration-ms="4657" started-at="2021-08-28T09:57:29Z" finished-at="2021-08-28T09:57:33Z">
           <reporter-output>
+            <line>
+              <![CDATA[Error msg is displayed]]>
+            </line>
           </reporter-output>
         </test-method> <!-- testValidlogin -->
-        <test-method status="PASS" signature="closeapp()[pri:0, instance:scripts.Invalidlogin@6ef888f6]" name="closeapp" is-config="true" duration-ms="1749" started-at="2021-08-28T08:08:56Z" finished-at="2021-08-28T08:08:58Z">
+        <test-method status="PASS" signature="closeapp()[pri:0, instance:scripts.Invalidlogin@6ef888f6]" name="closeapp" is-config="true" duration-ms="1612" started-at="2021-08-28T09:57:33Z" finished-at="2021-08-28T09:57:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeapp -->
       </class> <!-- scripts.Invalidlogin -->
       <class name="scripts.Validlogin">
-        <test-method status="PASS" signature="openapp(java.lang.String, java.lang.String)[pri:0, instance:scripts.Validlogin@10e92f8f]" name="openapp" is-config="true" duration-ms="38647" started-at="2021-08-28T08:07:47Z" finished-at="2021-08-28T08:08:26Z">
+        <test-method status="PASS" signature="openapp(java.lang.String, java.lang.String)[pri:0, instance:scripts.Validlogin@10e92f8f]" name="openapp" is-config="true" duration-ms="18182" started-at="2021-08-28T09:56:41Z" finished-at="2021-08-28T09:56:59Z">
           <params>
             <param index="0">
               <value>
@@ -103,11 +115,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openapp -->
-        <test-method status="PASS" signature="testValidlogin()[pri:1, instance:scripts.Validlogin@10e92f8f]" name="testValidlogin" duration-ms="7495" started-at="2021-08-28T08:08:26Z" finished-at="2021-08-28T08:08:33Z">
+        <test-method status="PASS" signature="testValidlogin()[pri:1, instance:scripts.Validlogin@10e92f8f]" name="testValidlogin" duration-ms="5224" started-at="2021-08-28T09:56:59Z" finished-at="2021-08-28T09:57:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testValidlogin -->
-        <test-method status="PASS" signature="closeapp()[pri:0, instance:scripts.Validlogin@10e92f8f]" name="closeapp" is-config="true" duration-ms="3093" started-at="2021-08-28T08:08:33Z" finished-at="2021-08-28T08:08:36Z">
+        <test-method status="PASS" signature="closeapp()[pri:0, instance:scripts.Validlogin@10e92f8f]" name="closeapp" is-config="true" duration-ms="2972" started-at="2021-08-28T09:57:05Z" finished-at="2021-08-28T09:57:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeapp -->
